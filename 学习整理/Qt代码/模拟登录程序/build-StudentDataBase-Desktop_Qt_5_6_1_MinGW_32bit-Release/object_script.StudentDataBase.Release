@@ -1,0 +1,14 @@
+INPUT(
+./release\main.o
+./release\mainwindow.o
+./release\logindialog.o
+./release\logindata.o
+./release\workthread.o
+./release\registerdialog.o
+./release\backpassworddialog.o
+./release\moc_mainwindow.o
+./release\moc_logindialog.o
+./release\moc_workthread.o
+./release\moc_registerdialog.o
+./release\moc_backpassworddialog.o
+);

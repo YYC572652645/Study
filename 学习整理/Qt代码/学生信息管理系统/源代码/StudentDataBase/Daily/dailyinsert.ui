@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DailyInsert</class>
+ <widget class="QWidget" name="DailyInsert">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>312</width>
+    <height>384</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTableWidget" name="tableWidget">
+     <row>
+      <property name="text">
+       <string>新建行</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>新建行</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>新建行</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>新建行</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>新建列</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>新建列</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

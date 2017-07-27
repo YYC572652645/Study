@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>841</width>
+    <height>483</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonTextBesideIcon</enum>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTableWidget" name="tableWidgetData">
+      <column>
+       <property name="text">
+        <string>姓名</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>性别</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>学号</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>民族</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>出生日期</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>政治面貌</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>学院</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>专业班级</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>当前班级</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>宿舍号</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>床号</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>身份证号</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>银行卡号</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>邮编</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>QQ</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>户口类型</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>家庭住址</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>生源地</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>单亲</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>贫困</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>服兵役</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>留学</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>周末回家</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>走读</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>父亲姓名</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>电话</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>单位</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>母亲姓名</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>电话</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>单位</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>个人电话</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextBesideIcon</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionJiaowu"/>
+   <addaction name="actionXinXi"/>
+   <addaction name="separator"/>
+   <addaction name="actionMovie"/>
+   <addaction name="actionScreen"/>
+   <addaction name="actionChangeStyle"/>
+   <addaction name="separator"/>
+   <addaction name="actionWeather"/>
+   <addaction name="actionEXIT"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar_2">
+   <property name="windowTitle">
+    <string>toolBar_2</string>
+   </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>LeftToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>841</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>学生信息</string>
+    </property>
+    <addaction name="actionInsert"/>
+    <addaction name="actionSelect"/>
+    <addaction name="actionPoliticalInsert"/>
+    <addaction name="actionPoliticalSelect"/>
+    <addaction name="actionCutSchoolInsert"/>
+    <addaction name="actionCutSchoolSelect"/>
+    <addaction name="actionNotPassInsert"/>
+    <addaction name="actionNotPassSelect"/>
+    <addaction name="actionHornorInsert"/>
+    <addaction name="actionHornorSelect"/>
+    <addaction name="actionDayInsert"/>
+    <addaction name="actionDaySelect"/>
+    <addaction name="actionOutLineInsert"/>
+    <addaction name="actionOutLineSelect"/>
+    <addaction name="actionGradeInsert"/>
+    <addaction name="actionGradeSelect"/>
+    <addaction name="actionNotBackIsrt"/>
+    <addaction name="actionNotBackSect"/>
+    <addaction name="actionGradeTestIsrt"/>
+    <addaction name="actionGradeTestSect"/>
+    <addaction name="actionSchoolRoolIsrt"/>
+    <addaction name="actionSchoolRoolSect"/>
+    <addaction name="actionTransferIsrt"/>
+    <addaction name="actionTransferSect"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>学校网站</string>
+    </property>
+    <addaction name="actionXinXi"/>
+    <addaction name="actionJiaowu"/>
+    <addaction name="actionBaiDu"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+  </widget>
+  <action name="actionEXIT">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/image/exit.png</normaloff>:/new/prefix1/image/exit.png</iconset>
+   </property>
+   <property name="text">
+    <string>退出程序</string>
+   </property>
+   <property name="toolTip">
+    <string>退出程序</string>
+   </property>
+  </action>
+  <action name="actionInsert">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/image/system-users.png</normaloff>:/new/prefix1/image/system-users.png</iconset>
+   </property>
+   <property name="text">
+    <string>基本信息录入</string>
+   </property>
+  </action>
+  <action name="actionSelect">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/image/system-users.png</normaloff>:/new/prefix1/image/system-users.png</iconset>
+   </property>
+   <property name="text">
+    <string>基本信息查询</string>
+   </property>
+  </action>
+  <action name="actionPoliticalInsert">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/image/system-users.png</normaloff>:/new/prefix1/image/system-users.png</iconset>
+   </property>
+   <property name="text">
+    <string>政治面貌录入</string>
+   </property>
+  </action>
+  <action name="actionPoliticalSelect">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/image/system-users.png</normaloff>:/new/prefix1/image/system-users.png</iconset>
+   </property>
+   <property name="text">
+    <string>政治面貌查询</string>
+   </property>
+  </action>
+  <action name="actionCutSchoolInsert">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/image/system-users.png</normaloff>:/new/prefix1/image/system-users.png</iconset>
+   </property>
+   <property name="text">
+    <string>旷课情况录入</string>
+   </property>
+  </action>
+  <action name="actionCutSchoolSelect">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/image/system-users.png</normaloff>:/new/prefix1/image/system-users.png</iconset>
+   </property>
+   <property name="text">
+    <string>旷课情况查询</string>
+   </property>
+  </action>
+  <action name="actionNotPassInsert">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/image/system-users.png</normaloff>:/new/prefix1/image/system-users.png</iconset>
+   </property>
+   <property name="text">
+    <string>挂科情况录入</string>
+   </property>
+  </action>
+  <action name="actionNotPassSelect">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/image/system-users.png</normaloff>:/new/prefix1/image/system-users.png</iconset>
+   </property>
+   <property name="text">
+    <string>挂科情况查询</string>
+   </property>
+  </action>
+  <action name="actionHornorInsert">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/image/system-users.png</normaloff>:/new/prefix1/image/system-users.png</iconset>
+   </property>
+   <property name="text">
+    <string>获奖情况录入</string>
+   </property>
+  </action>
+  <action name="actionHornorSelect">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/image/system-users.png</normaloff>:/new/prefix1/image/system-users.png</iconset>
+   </property>
+   <property name="text">
+    <string>获奖情况查询</string>
+   </property>
+  </action>
+  <action name="actionDayInsert">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/image/system-users.png</normaloff>:/new/prefix1/image/system-users.png</iconset>
+   </property>
+   <property name="text">
+    <string>日常情况录入</string>
+   </property>
+  </action>
+  <action name="actionDaySelect">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/image/system-users.png</normaloff>:/new/prefix1/image/system-users.png</iconset>
+   </property>
+   <property name="text">
+    <string>日常情况查询</string>
+   </property>
+  </action>
+  <action name="actionOutLineInsert">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/image/system-users.png</normaloff>:/new/prefix1/image/system-users.png</iconset>
+   </property>
+   <property name="text">
+    <string>违规违纪录入</string>
+   </property>
+  </action>
+  <action name="actionOutLineSelect">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/image/system-users.png</normaloff>:/new/prefix1/image/system-users.png</iconset>
+   </property>
+   <property name="text">
+    <string>违规违纪查询</string>
+   </property>
+  </action>
+  <action name="actionGradeInsert">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/image/system-users.png</normaloff>:/new/prefix1/image/system-users.png</iconset>
+   </property>
+   <property name="text">
+    <string>成绩排名录入</string>
+   </property>
+  </action>
+  <action name="actionGradeSelect">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/image/system-users.png</normaloff>:/new/prefix1/image/system-users.png</iconset>
+   </property>
+   <property name="text">
+    <string>成绩排名查询</string>
+   </property>
+  </action>
+  <action name="actionChangeStyle">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/image/square.png</normaloff>:/new/prefix1/image/square.png</iconset>
+   </property>
+   <property name="text">
+    <string>切换主题</string>
+   </property>
+   <property name="toolTip">
+    <string>切换主题</string>
+   </property>
+  </action>
+  <action name="actionXinXi">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/image/internet-web-browser.png</normaloff>:/new/prefix1/image/internet-web-browser.png</iconset>
+   </property>
+   <property name="text">
+    <string>信息工程学院网站</string>
+   </property>
+  </action>
+  <action name="actionJiaowu">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/image/internet-web-browser.png</normaloff>:/new/prefix1/image/internet-web-browser.png</iconset>
+   </property>
+   <property name="text">
+    <string>教务处网站</string>
+   </property>
+   <property name="toolTip">
+    <string>教务处网站</string>
+   </property>
+  </action>
+  <action name="actionScreen">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/image/gallery.png</normaloff>:/new/prefix1/image/gallery.png</iconset>
+   </property>
+   <property name="text">
+    <string>截屏</string>
+   </property>
+   <property name="toolTip">
+    <string>截屏</string>
+   </property>
+  </action>
+  <action name="actionMovie">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/image/videos.png</normaloff>:/new/prefix1/image/videos.png</iconset>
+   </property>
+   <property name="text">
+    <string>播放视频</string>
+   </property>
+   <property name="toolTip">
+    <string>播放视频</string>
+   </property>
+  </action>
+  <action name="actionBaiDu">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/image/Baidu.png</normaloff>:/new/prefix1/image/Baidu.png</iconset>
+   </property>
+   <property name="text">
+    <string>百度一下</string>
+   </property>
+  </action>
+  <action name="actionNotBackIsrt">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/image/system-users.png</normaloff>:/new/prefix1/image/system-users.png</iconset>
+   </property>
+   <property name="text">
+    <string>夜不归寝录入</string>
+   </property>
+   <property name="toolTip">
+    <string>夜不归寝录入</string>
+   </property>
+  </action>
+  <action name="actionNotBackSect">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/image/system-users.png</normaloff>:/new/prefix1/image/system-users.png</iconset>
+   </property>
+   <property name="text">
+    <string>夜不归寝查询</string>
+   </property>
+   <property name="toolTip">
+    <string>夜不归寝查询</string>
+   </property>
+  </action>
+  <action name="actionGradeTestIsrt">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/image/system-users.png</normaloff>:/new/prefix1/image/system-users.png</iconset>
+   </property>
+   <property name="text">
+    <string>等级考试录入</string>
+   </property>
+   <property name="toolTip">
+    <string>等级考试录入</string>
+   </property>
+  </action>
+  <action name="actionGradeTestSect">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/image/system-users.png</normaloff>:/new/prefix1/image/system-users.png</iconset>
+   </property>
+   <property name="text">
+    <string>等级考试查询</string>
+   </property>
+   <property name="toolTip">
+    <string>等级考试查询</string>
+   </property>
+  </action>
+  <action name="actionSchoolRoolIsrt">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/image/system-users.png</normaloff>:/new/prefix1/image/system-users.png</iconset>
+   </property>
+   <property name="text">
+    <string>学籍异变录入</string>
+   </property>
+   <property name="toolTip">
+    <string>学籍异变录入</string>
+   </property>
+  </action>
+  <action name="actionSchoolRoolSect">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/image/system-users.png</normaloff>:/new/prefix1/image/system-users.png</iconset>
+   </property>
+   <property name="text">
+    <string>学籍异变查询</string>
+   </property>
+   <property name="toolTip">
+    <string>学籍异变查询</string>
+   </property>
+  </action>
+  <action name="actionTransferIsrt">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/image/system-users.png</normaloff>:/new/prefix1/image/system-users.png</iconset>
+   </property>
+   <property name="text">
+    <string>转学录入</string>
+   </property>
+   <property name="toolTip">
+    <string>转学录入</string>
+   </property>
+  </action>
+  <action name="actionTransferSect">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/image/system-users.png</normaloff>:/new/prefix1/image/system-users.png</iconset>
+   </property>
+   <property name="text">
+    <string>转学查询</string>
+   </property>
+   <property name="toolTip">
+    <string>转学查询</string>
+   </property>
+  </action>
+  <action name="actionWeather">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/new/prefix1/image/weather.jpg</normaloff>:/new/prefix1/image/weather.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>天气预报</string>
+   </property>
+   <property name="toolTip">
+    <string>天气预报</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>tableWidgetData</tabstop>
+ </tabstops>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

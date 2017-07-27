@@ -1,0 +1,187 @@
+QLineEdit,QComboBox,QDateEdit,QRadioButton
+{
+    background-color: rgb(134,183,200);
+    border:2px solid #5F92B2;
+    border-radius:3px;
+}
+
+QPushButton
+{
+    background-color: rgb(134,183,200);
+    border:2px solid  #5F92B2;
+    border-radius:5px;
+    color:white;
+}
+
+QPushButton:hover
+{
+    background-color: rgb(0,130,150);
+    border:2px solid #5F92B2;
+    border-radius:5px;
+    color:white;
+}
+
+QPushButton:hover:pressed
+{
+    background-color:rgb(85,170,255);
+    border:2px solid #3C80B1;
+    border-radius:5px;
+    color:white;
+}
+
+QTableWidget::item:selected:active
+{
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0.7, y2: 0.7, stop: 0.5 #FF92BB, stop: 1 rgb(9,150,200));
+}
+
+QTreeWidget::item
+{
+    height:40px;
+    font-size:20px;
+}
+
+QTreeWidget::item::hover
+{
+    background-color:rgb(9,150,200,100);
+}
+
+QTreeWidget::item:selected
+{
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #6ea1f1, stop: 1 #567dbc);
+}
+
+
+QProgressBar
+{
+    border: 2px solid grey;
+    border-radius: 5px;
+    text-align: center;
+}
+
+QProgressBar::chunk
+{
+     background-color: #CD96CD;
+     width: 10px;
+     margin: 0.5px;
+}
+
+QMenuBar
+{
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,stop:0 lightgray, stop:1 darkgray);
+}
+
+QMenuBar::item
+{
+    spacing: 3px;
+    padding: 1px 4px;
+    background: transparent;
+    border-radius: 4px;
+}
+
+QMenuBar::item:selected
+{
+    background: #a8a8a8;
+}
+
+QMenuBar::item:pressed
+{
+    background: #888888;
+}
+
+
+QStatusBar
+{
+   background: brown;
+}
+
+QStatusBar::item
+{
+   border: 1px solid #05B8CC;
+   border-radius: 3px;
+}
+
+QToolBar
+{
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0.7, y2: 0.7,stop: 0.3 rgb(40,150,200,160),stop: 0.6 rgb(40,150,200,220),stop:1 rgb(40,150,200,255));
+}
+
+QMenu
+{
+    background-color:qlineargradient(x1: 0, y1: 0, x2: 0.7, y2: 0.7,stop: 0.5 #FF92BB, stop: 1 white);
+}
+
+QMenu::item:selected
+{
+    background-color:rgb(40,150,200);
+}
+
+QTreeWidget::branch
+{
+image:none;
+}
+
+
+QListWidget::item
+{
+    height:40px;
+    font-size:20px;
+}
+
+QListWidget::item::hover
+{
+    background-color:rgb(9,150,200,100);
+}
+
+QListWidget::item:selected
+{
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #6ea1f1, stop: 1 #567dbc);
+}
+
+
+QSlider::groove:horizontal#mySlider{
+      border: 1px solid #999999;
+      height: 20px;
+      background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #B1B1B1, stop:1 #c4c4c4);
+      margin: 2px 0;
+  }
+
+  QSlider::handle:horizontal#mySlider {
+      border-image: url(:/new/prefix1/image/Slider.png);
+      width: 25px;
+      height:20px;
+      margin: -2px 0;
+      border-radius: 3px;
+  }
+
+QSlider::add-page:horizontal#mySlider {
+     background: white;
+ }
+
+ QSlider::sub-page:horizontal#mySlider{
+      background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(231,80,229, 255), stop:1 rgba(7,208,255, 255));
+ }
+
+
+QSlider::groove:horizontal#sliderVolum{
+      border: 1px solid #999999;
+      height: 10px;
+      background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #B1B1B1, stop:1 #c4c4c4);
+      margin: 2px 0;
+  }
+
+  QSlider::handle:horizontal#sliderVolum {
+      border-image: url(:/new/prefix1/image/Slider.png);
+      width: 15px;
+      height:10px;
+      margin: -2px 0;
+      border-radius: 3px;
+  }
+
+QSlider::add-page:horizontal#sliderVolum{
+     background: white;
+ }
+
+ QSlider::sub-page:horizontal#sliderVolum{
+      background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(231,80,229, 255), stop:1 rgba(7,208,255, 255));
+ }
+

@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>open.png</file>
+        <file>excel.png</file>
+        <file>excel2.png</file>
+        <file>txt.png</file>
+        <file>logo.png</file>
+        <file>logo1.png</file>
+        <file>qpainter-arc.png</file>
+        <file>qpainter-pie.png</file>
+        <file>qpen-roundcap.png</file>
+        <file>block.png</file>
+        <file>cronometer.png</file>
+        <file>drag.png</file>
+        <file>app_list_16.png</file>
+        <file>app_list_32.png</file>
+        <file>app_list_48.png</file>
+        <file>app_list_128.png</file>
+        <file>app_list_256.png</file>
+        <file>figure8.png</file>
+    </qresource>
+</RCC>

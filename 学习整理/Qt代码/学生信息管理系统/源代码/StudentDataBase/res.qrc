@@ -1,0 +1,38 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>image/excel.png</file>
+        <file>image/indexedDB.png</file>
+        <file>image/serch.png</file>
+        <file>image/system-users.png</file>
+        <file>image/gallery.png</file>
+        <file>image/exit.png</file>
+        <file>image/square.png</file>
+        <file>image/internet-web-browser.png</file>
+        <file>image/happy.png</file>
+        <file>image/icon-fail.png</file>
+        <file>image/icon-ok.png</file>
+        <file>image/background1.png</file>
+        <file>image/media-pause-32.png</file>
+        <file>image/videos.png</file>
+        <file>image/chevron.png</file>
+        <file>image/Baidu.png</file>
+        <file>image/delete.ico</file>
+        <file>image/play.ico</file>
+        <file>image/plus.ico</file>
+        <file>image/repeat.ico</file>
+        <file>image/rewind.ico</file>
+        <file>image/skip_backward.ico</file>
+        <file>image/stop.ico</file>
+        <file>image/ward.ico</file>
+        <file>image/forward.ico</file>
+        <file>image/right.ico</file>
+        <file>image/rrow.ico</file>
+        <file>image/Slider.png</file>
+        <file>image/nosound.png</file>
+        <file>image/sound.png</file>
+        <file>style.qss</file>
+        <file>image/weather.jpg</file>
+        <file>image/showers.png</file>
+        <file>image/loading.gif</file>
+    </qresource>
+</RCC>

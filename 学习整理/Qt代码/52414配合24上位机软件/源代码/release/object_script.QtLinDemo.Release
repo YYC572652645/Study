@@ -1,0 +1,13 @@
+INPUT(
+./release\main.o
+./release\mainwindow.o
+./release\qextserialport.o
+./release\qextserialport_win.o
+./release\win_qextserialport.o
+./release\qextserialbase.o
+./release\qreadwriteini.o
+./release\qrc_qss.o
+./release\moc_mainwindow.o
+./release\moc_win_qextserialport.o
+./release\moc_qextserialbase.o
+);

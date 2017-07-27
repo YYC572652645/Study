@@ -1,0 +1,14 @@
+INPUT(
+./debug\main.o
+./debug\mainwindow.o
+./debug\logindialog.o
+./debug\logindata.o
+./debug\workthread.o
+./debug\registerdialog.o
+./debug\backpassworddialog.o
+./debug\moc_mainwindow.o
+./debug\moc_logindialog.o
+./debug\moc_workthread.o
+./debug\moc_registerdialog.o
+./debug\moc_backpassworddialog.o
+);

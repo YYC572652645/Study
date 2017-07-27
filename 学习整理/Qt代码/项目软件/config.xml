@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+    <configdata id="1">
+        <strPort>COM4</strPort>
+        <strBaud>57600</strBaud>
+        <strData>8</strData>
+        <strCheck>0</strCheck>
+        <strStop>1</strStop>
+        <strLinBaud>19200</strLinBaud>
+        <strLinChannel>0</strLinChannel>
+        <strLinBaud>Lin2.x</strLinBaud>
+        <strLinImp>0</strLinImp>
+        <strLinSleep>0</strLinSleep>
+        <strLinWake>0</strLinWake>
+        <strLinMCheck1>1</strLinMCheck1>
+        <strLinMCheck2>1</strLinMCheck2>
+        <strLinMCheck3>1</strLinMCheck3>
+        <strLinMCheck4>1</strLinMCheck4>
+        <strLinMCheck5>1</strLinMCheck5>
+        <strLinMCheck6>0</strLinMCheck6>
+        <strLinMCheck7>0</strLinMCheck7>
+        <strLinMCheck8>0</strLinMCheck8>
+        <strLinMCheck9>0</strLinMCheck9>
+        <strLinMCheck10>0</strLinMCheck10>
+        <strLinMCheck11>0</strLinMCheck11>
+        <strLinMCheck12>0</strLinMCheck12>
+        <strLinMCheck13>0</strLinMCheck13>
+        <strLinMCheck14>0</strLinMCheck14>
+        <strLinMCheck15>0</strLinMCheck15>
+        <strLinMCheck16>0</strLinMCheck16>
+        <strLinMID1>38</strLinMID1>
+        <strLinMID2>1A</strLinMID2>
+        <strLinMID3>00</strLinMID3>
+        <strLinMID4>05</strLinMID4>
+        <strLinMID5>06</strLinMID5>
+        <strLinMID6>07</strLinMID6>
+        <strLinMID7>08</strLinMID7>
+        <strLinMID8>1C</strLinMID8>
+        <strLinMID9>1D</strLinMID9>
+        <strLinMID10>0</strLinMID10>
+        <strLinMID11>0</strLinMID11>
+        <strLinMID12>0</strLinMID12>
+        <strLinMID13>0</strLinMID13>
+        <strLinMID14>0</strLinMID14>
+        <strLinMID15>0</strLinMID15>
+        <strLinMID16>0</strLinMID16>
+        <strLinMData1>2</strLinMData1>
+        <strLinMData2>4</strLinMData2>
+        <strLinMData3>3</strLinMData3>
+        <strLinMData4>8</strLinMData4>
+        <strLinMData5>8</strLinMData5>
+        <strLinMData6>8</strLinMData6>
+        <strLinMData7>8</strLinMData7>
+        <strLinMData8>2</strLinMData8>
+        <strLinMData9>8</strLinMData9>
+        <strLinMData10>0</strLinMData10>
+        <strLinMData11>0</strLinMData11>
+        <strLinMData12>0</strLinMData12>
+        <strLinMData13>0</strLinMData13>
+        <strLinMData14>0</strLinMData14>
+        <strLinMData15>0</strLinMData15>
+        <strLinMData16>0</strLinMData16>
+        <strLinMCount1>1</strLinMCount1>
+        <strLinMCount2>1</strLinMCount2>
+        <strLinMCount3>1</strLinMCount3>
+        <strLinMCount4>1</strLinMCount4>
+        <strLinMCount5>1</strLinMCount5>
+        <strLinMCount6>1</strLinMCount6>
+        <strLinMCount7>1</strLinMCount7>
+        <strLinMCount8>1</strLinMCount8>
+        <strLinMCount9>9</strLinMCount9>
+        <strLinMCount10>0</strLinMCount10>
+        <strLinMCount11>0</strLinMCount11>
+        <strLinMCount12>0</strLinMCount12>
+        <strLinMCount13>0</strLinMCount13>
+        <strLinMCount14>0</strLinMCount14>
+        <strLinMCount15>0</strLinMCount15>
+        <strLinMCount16>0</strLinMCount16>
+        <strLinSCheck1>1</strLinSCheck1>
+        <strLinSCheck2>1</strLinSCheck2>
+        <strLinSCheck3>1</strLinSCheck3>
+        <strLinSCheck4>0</strLinSCheck4>
+        <strLinSCheck5>0</strLinSCheck5>
+        <strLinSCheck6>0</strLinSCheck6>
+        <strLinSCheck7>0</strLinSCheck7>
+        <strLinSCheck8>0</strLinSCheck8>
+        <strLinSCheck9>0</strLinSCheck9>
+        <strLinSCheck10>0</strLinSCheck10>
+        <strLinSCheck11>0</strLinSCheck11>
+        <strLinSCheck12>0</strLinSCheck12>
+        <strLinSCheck13>0</strLinSCheck13>
+        <strLinSCheck14>0</strLinSCheck14>
+        <strLinSCheck15>0</strLinSCheck15>
+        <strLinSCheck16>0</strLinSCheck16>
+        <strLinSID1>38</strLinSID1>
+        <strLinSID2>1A</strLinSID2>
+        <strLinSID3>00</strLinSID3>
+        <strLinSID4>00</strLinSID4>
+        <strLinSID5>00</strLinSID5>
+        <strLinSID6>00</strLinSID6>
+        <strLinSID7>00</strLinSID7>
+        <strLinSID8>1C</strLinSID8>
+        <strLinSID9>1C</strLinSID9>
+        <strLinSID10>0</strLinSID10>
+        <strLinSID11>0</strLinSID11>
+        <strLinSID12>0</strLinSID12>
+        <strLinSID13>0</strLinSID13>
+        <strLinSID14>0</strLinSID14>
+        <strLinSID15>0</strLinSID15>
+        <strLinSID16>0</strLinSID16>
+        <strLinSData1>0F 00</strLinSData1>
+        <strLinSData2>FF FC 01 E0</strLinSData2>
+        <strLinSData3>00 56 C0</strLinSData3>
+        <strLinSData4>00 59 C0</strLinSData4>
+        <strLinSData5>00 65 C0</strLinSData5>
+        <strLinSData6>00 95 C0</strLinSData6>
+        <strLinSData7>00 20 C0</strLinSData7>
+        <strLinSData8>05 00</strLinSData8>
+        <strLinSData9>08 00</strLinSData9>
+        <strLinSData10>0</strLinSData10>
+        <strLinSData11>0</strLinSData11>
+        <strLinSData12>0</strLinSData12>
+        <strLinSData13>0</strLinSData13>
+        <strLinSData14>0</strLinSData14>
+        <strLinSData15>0</strLinSData15>
+        <strLinSData16>0</strLinSData16>
+    </configdata>
+</data>

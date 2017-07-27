@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>style.qss</file>
+        <file>image/52414.ICO</file>
+        <file>image/color.png</file>
+        <file>image/rad.ico</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>image/backGround.png</file>
+        <file>image/borderGround.png</file>
+        <file>image/excel.png</file>
+        <file>image/excel2.png</file>
+        <file>image/indexedDB.png</file>
+        <file>image/serch.png</file>
+        <file>image/system-users.png</file>
+        <file>image/gallery.png</file>
+        <file>image/settings.png</file>
+    </qresource>
+</RCC>

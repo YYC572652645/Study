@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PoliticalSelect</class>
+ <widget class="QWidget" name="PoliticalSelect">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTableWidget" name="tableWidget">
+     <column>
+      <property name="text">
+       <string>姓名</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>性别</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>学号</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>专业班级</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>政治面貌</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>入团时间</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>入党积极分子时间</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>入党时间</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

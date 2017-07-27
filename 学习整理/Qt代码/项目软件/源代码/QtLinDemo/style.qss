@@ -1,0 +1,69 @@
+QPushButton
+{
+    background-color:rgb(134,183,200);
+    border:2px solid rgb(100,225,200);
+    border-radius:5px;
+    color:white;
+}
+
+QLineEdit,QComboBox
+{
+    background-color: rgb(134,183,200);
+    border:2px solid #5F92B2;
+    border-radius:3px;
+}
+
+QPushButton:hover
+{
+    background-color: rgb(30,100,150);
+    border:2px solid #5F92B2;
+    border-radius:5px;
+    color:white;
+}
+
+QPushButton:hover:pressed
+{
+    background-color:rgb(100,120,205);
+    border:2px solid #3C80B1;
+    border-radius:5px;
+    color:white;
+}
+
+QPushButton:!enabled
+{
+    color: gray;
+}
+
+QTableWidget
+{
+    color:white;
+    font-size:16px;
+}
+
+QTableWidget::item:selected:active
+{
+    color:white;
+    selection-background-color: qlineargradient(x1: 0, y1: 0, x2: 0.7, y2: 0.7, stop: 0.5 #45BBD9, stop: 1 rgb(9,150,200));
+}
+
+QTableWidget::item:selected:!active
+{
+    color:white;
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0.7, y2: 0.7, stop: 0.5 #4BBFD0, stop: 1 rgb(9,150,200));
+}
+
+QHeaderView
+{
+    font-size:16px;
+}
+QHeaderView::section
+{
+    color:white;
+    padding:4px;
+    height:24px;
+    border:0px solid #4BBFD0;
+    border-left:0px;
+    border-right:0px;
+    background:rgb(9,150,200);
+}
+

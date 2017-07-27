@@ -1,0 +1,52 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_cmykthread.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_cmykthread.cpp, Release\moc_cmykthread.cpp.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_comparethread.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_comparethread.cpp, Release\moc_comparethread.cpp.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_mainobject.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_mainobject.cpp, Release\moc_mainobject.cpp.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_mainwindow.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_mainwindow.cpp, Release\moc_mainwindow.cpp.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_messagedialog.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_messagedialog.cpp, Release\moc_messagedialog.cpp.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_setuplangue.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_setuplangue.cpp, Release\moc_setuplangue.cpp.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_splashscreen.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_splashscreen.cpp, Release\moc_splashscreen.cpp.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_systemtray.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_systemtray.cpp, Release\moc_systemtray.cpp.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_versiondialog.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_versiondialog.cpp, Release\moc_versiondialog.cpp.
+  qrc_res.cpp
+  cmykthread.cpp
+mythread\cmykthread.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\program\yunniuproject\mythread\cmykthread.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  comparethread.cpp
+mythread\comparethread.cpp(65): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  main.cpp
+C:\opencv\include\opencv2/core/mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\opencv\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\opencv\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  moc_cmykthread.cpp
+d:\program\yunniuproject\release\../mythread/cmykthread.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  moc_comparethread.cpp
+  moc_mainobject.cpp
+  moc_mainwindow.cpp
+d:\program\yunniuproject\setuplanguage/setuplangue.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  moc_messagedialog.cpp
+  moc_setuplangue.cpp
+d:\program\yunniuproject\release\../setuplanguage/setuplangue.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  moc_splashscreen.cpp
+  moc_systemtray.cpp
+  moc_versiondialog.cpp
+d:\program\yunniuproject\release\../version/versiondialog.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  mainobject.cpp
+d:\program\yunniuproject\setuplanguage/setuplangue.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  mainwindow.cpp
+d:\program\yunniuproject\setuplanguage/setuplangue.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\program\yunniuproject\version/versiondialog.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\program\yunniuproject\mythread/cmykthread.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  messagedialog.cpp
+  qreadwriteini.cpp
+  setuplangue.cpp
+d:\program\yunniuproject\setuplanguage\setuplangue.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  singleton.cpp
+  splashscreen.cpp
+  systemtray.cpp
+.\version/versiondialog.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  正在生成代码...
+  正在编译...
+  versiondialog.cpp
+d:\program\yunniuproject\version\versiondialog.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  正在生成代码...
+  YunNiuProject.vcxproj -> D:\Program\YunNiuProject\release\YunNiuProject.exe

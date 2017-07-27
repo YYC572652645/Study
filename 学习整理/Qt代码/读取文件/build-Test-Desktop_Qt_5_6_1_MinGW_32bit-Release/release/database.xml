@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <database>
+        <ip>127.0.0.1</ip>
+        <port>8080</port>
+        <databaseversion>QSQLITE</databaseversion>
+        <databasename>student.db</databasename>
+        <username>root</username>
+        <password>123</password>
+    </database>
+</data>

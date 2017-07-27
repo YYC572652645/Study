@@ -1,0 +1,48 @@
+#-------------------------------------------------
+#
+# Project created by QtCreator 2016-09-06T08:22:10
+#
+#-------------------------------------------------
+
+QT       += core gui sql  xml  axcontainer
+
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+
+TARGET = StudentDataBase
+TEMPLATE = app
+
+
+SOURCES += main.cpp\
+        mainwindow.cpp \
+    StudentInfo/studentdataBase.cpp \
+    StudentInfo/studentinfo.cpp \
+    Login/backpassworddialog.cpp \
+    Login/logindata.cpp \
+    Login/logindialog.cpp \
+    Login/registerdialog.cpp \
+    Political/PoliticalDataBase.cpp \
+    Political/politicalinsert.cpp
+
+HEADERS  += mainwindow.h \
+    StudentInfo/StudentDataBase.h \
+    StudentInfo/studentinfo.h \
+    Login/backpassworddialog.h \
+    Login/logindata.h \
+    Login/logindialog.h \
+    Login/registerdialog.h \
+    Political/PoliticalDataBase.h \
+    Political/politicalinsert.h \
+    politicalselect.h
+
+FORMS    += mainwindow.ui \
+    StudentInfo/studentinfo.ui \
+    Login/backpassworddialog.ui \
+    Login/logindialog.ui \
+    Login/registerdialog.ui \
+    Political/politicalinsert.ui \
+    politicalselect.ui
+
+DISTFILES +=
+
+RESOURCES += \
+    res.qrc

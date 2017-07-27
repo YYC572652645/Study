@@ -1,0 +1,117 @@
+QMainWindow,QLineEdit,QComboBox,QTextEdit,QCheckBox,QLabel,QGroupBox
+{
+background-color:rgba(134, 183, 200,255);
+color:white;
+}
+
+QPushButton
+{
+background-color: rgb(134,183,200);
+border:2px solid rgb(0,255,255);
+border-radius:5px;
+color:white;
+}
+
+
+QLineEdit,QComboBox
+{
+background-color: rgb(134,183,200);
+border:2px solid #5F92B2;
+border-radius:3px;
+}
+
+QPushButton:hover
+{
+background-color: rgb(0,130,150);
+border:2px solid #5F92B2;
+border-radius:5px;
+color:white;
+}
+
+QPushButton:hover:pressed
+{
+background-color:rgb(85,170,255);
+border:2px solid #3C80B1;
+border-radius:5px;
+color:white;
+}
+
+QPushButton:!enabled
+{
+color: gray;
+}
+
+
+QProgressBar#progressBarABX::chunk
+{
+    background-color: #05B8CC;
+    width: 2px;
+    margin: 0.5px;
+}
+
+
+QProgressBar#progressBarABY::chunk
+{
+    background-color: #05B8CC;
+    height: 2px;
+    margin: 0.5px;
+}
+
+
+
+QProgressBar#progressBarBCX::chunk
+{
+    background-color:#CD96CD;
+    width: 2px;
+    margin: 0.5px;
+}
+
+QProgressBar#progressBarBCY::chunk
+{
+    background-color:#CD96CD;
+    height: 2px;
+    margin: 0.5px;
+}
+
+
+QProgressBar#progressBarCDX::chunk
+{
+    background-color: rgb(254,254,65,200);
+    width: 2px;
+    margin: 0.5px;
+}
+
+
+QProgressBar#progressBarCDY::chunk
+{
+    background-color: rgb(254,254,65,200);
+    height: 2px;
+    margin: 0.5px;
+}
+
+
+
+QToolButton
+{
+border:2px solid  #5F92B2;
+border-radius:5px;
+background-image: url(:/image/color.png);
+background-color:transparent;
+}
+
+QToolButton:hover
+{
+background-color:rgb(0,130,150);
+border:2px solid #5F92B2;
+border-radius:5px;
+color:white;
+}
+
+QToolButton:hover:pressed
+{
+background-color:rgb(85,170,255);
+border:2px solid #3C80B1;
+border-radius:5px;
+color:white;
+}
+

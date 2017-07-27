@@ -1,0 +1,50 @@
+QToolButton:checked
+{
+    background-color: rgb(200,200,200);
+    border:2px solid #C8C8C8;
+    border-radius:5px;
+    color:white;
+}
+QMenu
+{
+    background-color:white;
+    border:1px solid white;
+}
+
+QMenu::item
+{
+    background-color:transparent;
+    padding:8px 32px;
+    margin:0px 8px;
+    border-bottom:1px solid #DBDBDB
+}
+
+QMenu::item:selected
+{
+    background-color: #2dabf9;
+}
+
+QMenu::item:checked
+{
+    background-color: #2dabf9;
+    border:1px solid #C8C8C8;
+    border-radius:1px;
+    color:black;
+}
+
+QProgressBar
+{
+    border: 2px solid grey;
+    border-radius: 5px;
+    text-align: center;
+}
+
+QProgressBar::chunk
+{
+     background-color: #CD96CD;
+     width: 10px;
+     margin: 0.5px;
+}
+
+
+

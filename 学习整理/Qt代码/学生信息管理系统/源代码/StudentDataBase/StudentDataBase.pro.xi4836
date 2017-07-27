@@ -1,0 +1,82 @@
+#-------------------------------------------------
+#
+# Project created by QtCreator 2016-09-06T08:22:10
+#
+#-------------------------------------------------
+
+QT       += core gui sql  xml  axcontainer
+
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+
+TARGET = StudentDataBase
+TEMPLATE = app
+
+
+SOURCES += main.cpp\
+        mainwindow.cpp \
+    StudentInfo/studentdataBase.cpp \
+    StudentInfo/studentinfo.cpp \
+    Login/backpassworddialog.cpp \
+    Login/logindata.cpp \
+    Login/logindialog.cpp \
+    Login/registerdialog.cpp \
+    Political/PoliticalDataBase.cpp \
+    Political/politicalinsert.cpp \
+    Political/politicalselect.cpp \
+    CutSchool/cutschooldatabase.cpp \
+    CutSchool/cutschoolinsert.cpp \
+    CutSchool/cutschoolselect.cpp \
+    NotPass/notpassdatabase.cpp \
+    NotPass/notpassinsert.cpp \
+    NotPass/notpassselect.cpp \
+    Honor/HonorDataBase.cpp \
+    Honor/honorinsert.cpp \
+    Honor/honorselect.cpp \
+    Daily/dailydatabase.cpp \
+    Daily/dailyselect.cpp \
+    Daily/dailyinsert.cpp
+
+HEADERS  += mainwindow.h \
+    StudentInfo/StudentDataBase.h \
+    StudentInfo/studentinfo.h \
+    Login/backpassworddialog.h \
+    Login/logindata.h \
+    Login/logindialog.h \
+    Login/registerdialog.h \
+    Political/PoliticalDataBase.h \
+    Political/politicalinsert.h \
+    Political/politicalselect.h \
+    CutSchool/cutschooldatabase.h \
+    CutSchool/cutschoolinsert.h \
+    CutSchool/cutschoolselect.h \
+    NotPass/notpassdatabase.h \
+    NotPass/notpassinsert.h \
+    NotPass/notpassselect.h \
+    Honor/HonorDataBase.h \
+    Honor/honorinsert.h \
+    Honor/honorselect.h \
+    Daily/dailydatabase.h \
+    Daily/dailyselect.h \
+    Daily/dailyinsert.h
+
+FORMS    += mainwindow.ui \
+    StudentInfo/studentinfo.ui \
+    Login/backpassworddialog.ui \
+    Login/logindialog.ui \
+    Login/registerdialog.ui \
+    Political/politicalinsert.ui \
+    Political/politicalselect.ui \
+    CutSchool/cutschoolinsert.ui \
+    CutSchool/cutschoolselect.ui \
+    NotPass/notpassinsert.ui \
+    NotPass/notpassselect.ui \
+    Honor/honorinsert.ui \
+    Honor/honorselect.ui \
+    Daily/dailyselect.ui \
+    Daily/dailyinsert.ui \
+    MessageBox/messagebox.ui
+
+DISTFILES +=
+
+RESOURCES += \
+    res.qrc

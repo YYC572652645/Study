@@ -1,0 +1,13 @@
+INPUT(
+./debug\main.o
+./debug\mainwindow.o
+./debug\qextserialport.o
+./debug\qextserialport_win.o
+./debug\win_qextserialport.o
+./debug\qextserialbase.o
+./debug\qreadwriteini.o
+./debug\qrc_qss.o
+./debug\moc_mainwindow.o
+./debug\moc_win_qextserialport.o
+./debug\moc_qextserialbase.o
+);

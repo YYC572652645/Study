@@ -1,0 +1,648 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1456</width>
+    <height>877</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>900</width>
+    <height>652</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QSplitter" name="splitterFirst">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <widget class="QLabel" name="labelSourceImage">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QSplitter" name="splitterSecond">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <widget class="QLabel" name="labelResultImage">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="labelTargetImage">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1456</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="actionOpenImage"/>
+    <addaction name="actionOpenResult"/>
+    <addaction name="actionOpenNextResult"/>
+    <addaction name="actionOpenLastResult"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menu_7">
+    <property name="title">
+     <string>视图</string>
+    </property>
+    <addaction name="actionTool"/>
+    <addaction name="actionAddTag"/>
+   </widget>
+   <widget class="QMenu" name="menu_8">
+    <property name="title">
+     <string>检查</string>
+    </property>
+    <addaction name="actionSaveResult"/>
+   </widget>
+   <widget class="QMenu" name="menu_11">
+    <property name="title">
+     <string>变焦</string>
+    </property>
+    <addaction name="actionZoomIn"/>
+    <addaction name="actionZoomOut"/>
+   </widget>
+   <widget class="QMenu" name="menu_14">
+    <property name="title">
+     <string>主题风格</string>
+    </property>
+    <addaction name="actionBlue"/>
+    <addaction name="actionLight"/>
+    <addaction name="actionGray"/>
+   </widget>
+   <widget class="QMenu" name="menu_15">
+    <property name="title">
+     <string>帮助</string>
+    </property>
+    <addaction name="actionVersion"/>
+   </widget>
+   <widget class="QMenu" name="menu_10">
+    <property name="title">
+     <string>画笔颜色</string>
+    </property>
+    <addaction name="actionRedColor"/>
+    <addaction name="actionChengColor"/>
+    <addaction name="actionYellowColor"/>
+    <addaction name="actionGreenColor"/>
+    <addaction name="actionCyanColor"/>
+    <addaction name="actionBlueColor"/>
+    <addaction name="actionPurpleColor"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_7"/>
+   <addaction name="menu_8"/>
+   <addaction name="menu_11"/>
+   <addaction name="menu_14"/>
+   <addaction name="menu_10"/>
+   <addaction name="menu_15"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionOpenImage"/>
+   <addaction name="actionOpenResult"/>
+   <addaction name="actionOpenNextResult"/>
+   <addaction name="actionOpenLastResult"/>
+   <addaction name="separator"/>
+   <addaction name="actionConfirmCompare"/>
+   <addaction name="separator"/>
+   <addaction name="actionSureInitAll"/>
+   <addaction name="actionAddTag"/>
+   <addaction name="actionOutPutImage"/>
+   <addaction name="actionBlink"/>
+   <addaction name="separator"/>
+   <addaction name="actionShowErrorRect"/>
+   <addaction name="actionChoseWidget"/>
+   <addaction name="separator"/>
+   <addaction name="actionSetError"/>
+   <addaction name="separator"/>
+   <addaction name="actionSetImportantError"/>
+   <addaction name="actionMove"/>
+   <addaction name="actionRool"/>
+   <addaction name="actionZoomIn"/>
+   <addaction name="actionZoomOut"/>
+   <addaction name="actionRotate270"/>
+   <addaction name="actionRotate90"/>
+   <addaction name="actionCyan"/>
+   <addaction name="actionMagenta"/>
+   <addaction name="actionYellow"/>
+   <addaction name="actionBlack"/>
+   <addaction name="actionVersion"/>
+   <addaction name="actionExit"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionOpenImage">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/res/open_souce.png</normaloff>:/image/res/open_souce.png</iconset>
+   </property>
+   <property name="text">
+    <string>打开源图</string>
+   </property>
+   <property name="toolTip">
+    <string>打开源图</string>
+   </property>
+  </action>
+  <action name="actionOpenResult">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/res/open1.png</normaloff>:/image/res/open1.png</iconset>
+   </property>
+   <property name="text">
+    <string>打开检测结果或目标图片</string>
+   </property>
+   <property name="toolTip">
+    <string>打开检测结果或目标图片</string>
+   </property>
+  </action>
+  <action name="actionOpenNextResult">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/res/open2.png</normaloff>:/image/res/open2.png</iconset>
+   </property>
+   <property name="text">
+    <string>下次检测结果</string>
+   </property>
+  </action>
+  <action name="actionOpenLastResult">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/res/open3.png</normaloff>:/image/res/open3.png</iconset>
+   </property>
+   <property name="text">
+    <string>上次检测结果</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/res/logout.png</normaloff>:/image/res/logout.png</iconset>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </action>
+  <action name="actionTool">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/res/toolbar.png</normaloff>:/image/res/toolbar.png</iconset>
+   </property>
+   <property name="text">
+    <string>工具条</string>
+   </property>
+  </action>
+  <action name="actionAddTag">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/res/stamps.png</normaloff>:/image/res/stamps.png</iconset>
+   </property>
+   <property name="text">
+    <string>打标签</string>
+   </property>
+  </action>
+  <action name="actionSaveResult">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/res/filesave.png</normaloff>:/image/res/filesave.png</iconset>
+   </property>
+   <property name="text">
+    <string>保存检查结果</string>
+   </property>
+  </action>
+  <action name="actionZoomIn">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/res/zoom_in.png</normaloff>:/image/res/zoom_in.png</iconset>
+   </property>
+   <property name="text">
+    <string>放大</string>
+   </property>
+  </action>
+  <action name="actionZoomOut">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/res/zoom_out.png</normaloff>:/image/res/zoom_out.png</iconset>
+   </property>
+   <property name="text">
+    <string>缩小</string>
+   </property>
+  </action>
+  <action name="actionBlue">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/res/color.png</normaloff>:/image/res/color.png</iconset>
+   </property>
+   <property name="text">
+    <string>蓝</string>
+   </property>
+  </action>
+  <action name="actionLight">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/res/light.png</normaloff>:/image/res/light.png</iconset>
+   </property>
+   <property name="text">
+    <string>亮</string>
+   </property>
+  </action>
+  <action name="actionGray">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/res/black.png</normaloff>:/image/res/black.png</iconset>
+   </property>
+   <property name="text">
+    <string>暗</string>
+   </property>
+  </action>
+  <action name="actionVersion">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/res/question.png</normaloff>:/image/res/question.png</iconset>
+   </property>
+   <property name="text">
+    <string>版本信息</string>
+   </property>
+  </action>
+  <action name="actionConfirmCompare">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/res/red3.png</normaloff>:/image/res/red3.png</iconset>
+   </property>
+   <property name="text">
+    <string>确认</string>
+   </property>
+   <property name="toolTip">
+    <string>确认</string>
+   </property>
+  </action>
+  <action name="actionSureInitAll">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/res/initialAllConfirm.png</normaloff>:/image/res/initialAllConfirm.png</iconset>
+   </property>
+   <property name="text">
+    <string>全部确认初始化</string>
+   </property>
+   <property name="toolTip">
+    <string>全部确认初始化</string>
+   </property>
+  </action>
+  <action name="actionOutPutImage">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/res/outputPrintImg.png</normaloff>:/image/res/outputPrintImg.png</iconset>
+   </property>
+   <property name="text">
+    <string>输出图片</string>
+   </property>
+   <property name="toolTip">
+    <string>输出图片</string>
+   </property>
+  </action>
+  <action name="actionBlink">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/res/blinkView.png</normaloff>:/image/res/blinkView.png</iconset>
+   </property>
+   <property name="text">
+    <string>闪烁视图显示比较源和目标图像</string>
+   </property>
+   <property name="toolTip">
+    <string>闪烁视图显示比较源和目标图像</string>
+   </property>
+  </action>
+  <action name="actionShowErrorRect">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/res/dd.png</normaloff>:/image/res/dd.png</iconset>
+   </property>
+   <property name="text">
+    <string>显示错误边框</string>
+   </property>
+   <property name="toolTip">
+    <string>显示错误边框</string>
+   </property>
+  </action>
+  <action name="actionChoseWidget">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/res/switchSplitWindow.png</normaloff>:/image/res/switchSplitWindow.png</iconset>
+   </property>
+   <property name="text">
+    <string>选择分割窗口</string>
+   </property>
+   <property name="toolTip">
+    <string>选择分割窗口</string>
+   </property>
+  </action>
+  <action name="actionMove">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/res/finger.png</normaloff>:/image/res/finger.png</iconset>
+   </property>
+   <property name="text">
+    <string>移动</string>
+   </property>
+   <property name="toolTip">
+    <string>移动</string>
+   </property>
+  </action>
+  <action name="actionRool">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/res/sign-down.png</normaloff>:/image/res/sign-down.png</iconset>
+   </property>
+   <property name="text">
+    <string>滚动</string>
+   </property>
+   <property name="toolTip">
+    <string>滚动</string>
+   </property>
+  </action>
+  <action name="actionRotate270">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/res/rotation.png</normaloff>:/image/res/rotation.png</iconset>
+   </property>
+   <property name="text">
+    <string>旋转270度</string>
+   </property>
+   <property name="toolTip">
+    <string>旋转270度</string>
+   </property>
+  </action>
+  <action name="actionRotate90">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/res/rotate-right.png</normaloff>:/image/res/rotate-right.png</iconset>
+   </property>
+   <property name="text">
+    <string>旋转90度</string>
+   </property>
+  </action>
+  <action name="actionCyan">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/res/cyan.png</normaloff>:/image/res/cyan.png</iconset>
+   </property>
+   <property name="text">
+    <string>青色</string>
+   </property>
+   <property name="toolTip">
+    <string>青色</string>
+   </property>
+  </action>
+  <action name="actionMagenta">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/res/magenta.png</normaloff>:/image/res/magenta.png</iconset>
+   </property>
+   <property name="text">
+    <string>品红色</string>
+   </property>
+   <property name="toolTip">
+    <string>品红色</string>
+   </property>
+  </action>
+  <action name="actionYellow">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/res/yellow.png</normaloff>:/image/res/yellow.png</iconset>
+   </property>
+   <property name="text">
+    <string>黄色</string>
+   </property>
+   <property name="toolTip">
+    <string>黄色</string>
+   </property>
+  </action>
+  <action name="actionBlack">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/res/white.png</normaloff>:/image/res/white.png</iconset>
+   </property>
+   <property name="text">
+    <string>黑色</string>
+   </property>
+   <property name="toolTip">
+    <string>黑色</string>
+   </property>
+  </action>
+  <action name="actionSetImportantError">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/res/more.png</normaloff>:/image/res/more.png</iconset>
+   </property>
+   <property name="text">
+    <string>多边形检测</string>
+   </property>
+   <property name="toolTip">
+    <string>多边形检测</string>
+   </property>
+  </action>
+  <action name="actionSetError">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/res/rect.png</normaloff>:/image/res/rect.png</iconset>
+   </property>
+   <property name="text">
+    <string>矩形检测</string>
+   </property>
+   <property name="toolTip">
+    <string>矩形检测</string>
+   </property>
+  </action>
+  <action name="actionRedColor">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/res/red.png</normaloff>:/image/res/red.png</iconset>
+   </property>
+   <property name="text">
+    <string>红色</string>
+   </property>
+  </action>
+  <action name="actionChengColor">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/res/cheng.png</normaloff>:/image/res/cheng.png</iconset>
+   </property>
+   <property name="text">
+    <string>橙色</string>
+   </property>
+  </action>
+  <action name="actionYellowColor">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/res/huang.png</normaloff>:/image/res/huang.png</iconset>
+   </property>
+   <property name="text">
+    <string>黄色</string>
+   </property>
+  </action>
+  <action name="actionGreenColor">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/res/green.png</normaloff>:/image/res/green.png</iconset>
+   </property>
+   <property name="text">
+    <string>绿色</string>
+   </property>
+  </action>
+  <action name="actionCyanColor">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/res/qing.png</normaloff>:/image/res/qing.png</iconset>
+   </property>
+   <property name="text">
+    <string>青色</string>
+   </property>
+  </action>
+  <action name="actionBlueColor">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/res/blue.png</normaloff>:/image/res/blue.png</iconset>
+   </property>
+   <property name="text">
+    <string>蓝色</string>
+   </property>
+  </action>
+  <action name="actionPurpleColor">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/image/res/purplr.png</normaloff>:/image/res/purplr.png</iconset>
+   </property>
+   <property name="text">
+    <string>紫色</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

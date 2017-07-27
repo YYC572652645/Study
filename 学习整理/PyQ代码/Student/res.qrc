@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="image">
+    <file>res/style.qss</file>
+    <file>res/myname.png</file>
+  </qresource>
+</RCC>

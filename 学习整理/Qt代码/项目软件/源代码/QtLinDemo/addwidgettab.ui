@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>addWidgetTab</class>
+ <widget class="QWidget" name="addWidgetTab">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>616</width>
+    <height>484</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"> background-color:rgba(69, 187, 217,255);</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_12">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_14">
+       <item>
+        <widget class="QComboBox" name="comboBox">
+         <property name="minimumSize">
+          <size>
+           <width>120</width>
+           <height>0</height>
+          </size>
+         </property>
+         <item>
+          <property name="text">
+           <string>探头1</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>探头2</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>探头3</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>探头4</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>探头5</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>探头6</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>探头7</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>探头8</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>写入</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>读取数据</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_16">
+         <property name="text">
+          <string>X:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEditX"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_17">
+         <property name="text">
+          <string>Y:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEditY"/>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButtonSaveInfo">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>保存</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_14">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QTableWidget" name="tableWidget">
+       <property name="styleSheet">
+        <string notr="true"> background-color:rgba(69, 187, 217,255);</string>
+       </property>
+       <property name="horizontalScrollBarPolicy">
+        <enum>Qt::ScrollBarAsNeeded</enum>
+       </property>
+       <property name="gridStyle">
+        <enum>Qt::CustomDashLine</enum>
+       </property>
+       <row>
+        <property name="text">
+         <string>0X00</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>0X01</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>0X02</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>0X03</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>0X04</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>0X05</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>0X06</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>0X07</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>0X08</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>0X13</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>0X1A</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>0X20</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>0X22</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>0X24</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>0X26</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>0X28</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>0X2A</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>0X2C</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>0X2E</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>0X30</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>0X3A</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>新建列</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>新建列</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>新建列</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>新建列</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>新建列</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>新建列</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>新建列</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>新建列</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>新建列</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>新建列</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>新建列</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>新建列</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>新建列</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>新建列</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>新建列</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>新建列</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>新建列</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>pushButton</tabstop>
+  <tabstop>comboBox</tabstop>
+  <tabstop>pushButton_2</tabstop>
+  <tabstop>lineEditX</tabstop>
+  <tabstop>lineEditY</tabstop>
+  <tabstop>pushButtonSaveInfo</tabstop>
+  <tabstop>tableWidget</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

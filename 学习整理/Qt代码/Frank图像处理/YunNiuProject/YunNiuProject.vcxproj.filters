@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts;xlf</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts;xlf</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{725566c4-1c1e-4a6a-9870-c3dd2a58925a}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{fa2e2732-0908-4b37-be09-7badc704094f}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mythread\cmykthread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mythread\comparethread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="screen\mainobject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageBox\messagedialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qreadwrite\qreadwriteini.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="setuplanguage\setuplangue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="singleton\singleton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="screen\splashscreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systemtray\systemtray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="version\versiondialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_cmykthread.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_cmykthread.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_comparethread.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_comparethread.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_mainobject.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_mainobject.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_mainwindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_mainwindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_messagedialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_messagedialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_setuplangue.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_setuplangue.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_splashscreen.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_splashscreen.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_systemtray.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_systemtray.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_versiondialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_versiondialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_res.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DetectAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="mythread\cmykthread.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mythread\comparethread.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="globaldef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libmupdf_global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="screen\mainobject.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mainwindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MessageBox\messagedialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="include\mupdf-document.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mupdf-link.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mupdf-outline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mupdf-page.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mupdf-qt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mupdf-textbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qreadwrite\qreadwriteini.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="setuplanguage\setuplangue.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="singleton\singleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="screen\splashscreen.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="systemtray\systemtray.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="version\versiondialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="GeneratedFiles\ui_mainwindow.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_messagedialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_setuplangue.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_versiondialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="chinese.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="english.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="mainwindow.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MessageBox\messagedialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="setuplanguage\setuplangue.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="version\versiondialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="-">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\4r.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\5t.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="??.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\HideWithoutValidArea.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\LOGO.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Version.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\about.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\background1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\black.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\blinkView.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\blue.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cc.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cheng.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="language\chinese.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\color.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\colorMeasurement.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\confirmView.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cyan.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\dd.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ddk.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\dip.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="language\english.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\fail.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\fd.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ff.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\fft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\filesave.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\finger.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\fyk.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\green.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\happy.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\hock.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\hock">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\huang.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\initialAllConfirm.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\kkk.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\layout_search.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\light.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\loading.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\logout.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\magenta.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\mixedView.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\more.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ok.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\open1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\open2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\open3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\open_souce.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\outputPrintImg.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\purplr.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\qing.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\question.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\rect.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\red.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\red1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\red2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\red3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\red4.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="res.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="res\rotate-right.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\rotation.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\rotation1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\scaleAndProtractor.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\showEdge.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\sign-down.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\stamps.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="style.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\switchSplitWindow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\toolbar.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\white.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\wjk.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\xpc.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\y.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\yellow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\yykf.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\zoom_in.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\zoom_out.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="myapp.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\hock - 副本.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,119 @@
+QComboBox
+{
+    background-color: rgb(0,0,0);
+    border-width:1px;
+    border-style:solid;
+    border-color:white;
+    color:white;
+}
+
+QComboBox QAbstractItemView {
+      border: 2px solid black;
+      selection-background-color: darkgray;
+      background-color:black;
+      color:white;
+  }
+
+QComboBox:!enabled
+{
+    background-color: rgb(0,0,0);
+    border-width:1px;
+    border-style:solid;
+    border-color:white;
+    color:gray;
+}
+
+QLabel
+{
+    color:white;
+}
+
+QLabel#labelOne,#labelTwo
+{
+    color:black;
+}
+
+QLabel#label1,#label2,#label3,#label4,#label5
+{
+    border-width:1px;
+    border-style:solid;
+    border-color:white;
+    color:white;
+}
+
+QPushButton,QToolButton
+{
+    background-color: rgb(134,183,200);
+    border:2px solid  #5F92B2;
+    border-radius:5px;
+    color:white;
+}
+QToolButton#closeButton
+{
+    background-image: url(:/new/prefix1/RES/color.png);
+    background-color:transparent;
+}
+
+QPushButton:hover,QToolButton:hover
+{
+    background-color:rgb(0,130,150);
+    border:2px solid #5F92B2;
+    border-radius:5px;
+    color:white;
+}
+
+QPushButton:hover:pressed,QToolButton:hover:pressed
+{
+    background-color:rgb(85,170,255);
+    border:2px solid #3C80B1;
+    border-radius:5px;
+    color:white;
+}
+
+QTableWidget
+{
+    background-color:black;
+    border-width:1px;
+    border-style:solid;
+    border-color:white;
+    color:white;
+}
+
+QTableWidget::item:selected
+{
+    background-color: black;
+}
+
+QHeaderView::section
+{
+    background-color:black;
+    color:white;
+}
+
+QScrollBar
+{
+    background-color:black;
+}
+
+QWidget#myWidget
+{
+    background-color: rgb(0,0,0);
+    border-width:1px;
+    border-style:solid;
+    border-color:white;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

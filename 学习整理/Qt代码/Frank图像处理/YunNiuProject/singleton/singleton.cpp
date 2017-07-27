@@ -1,0 +1,2 @@
+﻿#include "singleton.h"
+
